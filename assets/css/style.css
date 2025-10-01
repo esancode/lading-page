@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    XXXborder: 1px solid red;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.orion_page {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    XXXbackground-color: rgba(0, 0, 255, 0.486);
+    height: auto;
+    max-width: 1152px;
+    padding: 16px;
+}

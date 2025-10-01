@@ -1,0 +1,122 @@
+.overview_widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.overview_widget__img {
+    margin: 2px 0px 16px;
+    width: 192px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    border-radius: 8px;
+    box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.13);
+}
+
+.overview_widget__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview_widget__hero {
+    font-weight: 600;
+}
+
+.overview_widget__subtitle {
+    font-weight: 600;
+    color: #2563EB;
+    line-height: 1;
+}
+
+.overview_widget__features {
+    text-align: center;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.overview_widget__button {
+    margin: 8px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #1356e6;
+    color: white;
+    margin: 16px;
+    border: none;
+}
+
+.overview_widget__button:hover {
+    background-color: #1c49a8;
+}
+
+/* TABLET */
+
+@media (min-width: 360px) {
+
+    .overview_widget__img {
+        width: 344px;
+    }
+
+    .overview_widget__hero {
+        font-size: 24px;
+    }
+
+    .overview_widget__subtitle {
+        font-size: 24px;
+    }
+
+    .overview_widget__features {
+        font-size: 16px;
+    }
+    
+    .overview_widget__button {
+        margin: 12px;
+        padding: 14px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+}
+
+/* DESKTOP */
+
+@media (min-width: 832px) {
+    
+    .orion_page {
+        padding: 36px 80px;
+    }
+
+    .overview_widget {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .overview_widget__container {
+        align-items: flex-start;
+
+    }
+
+    .overview_widget__hero {
+        font-size: 40px;
+    }
+
+    .overview_widget__subtitle {
+        font-size: 40px;
+    }
+
+    .overview_widget__features {
+        text-align: left;
+        margin: 8px 0;
+        width: 80%;
+    }
+
+    .overview_widget__button {
+        margin: 16px 0;
+    }
+
+    .overview_widget__img {
+        width: 376px;
+    }
+
+}

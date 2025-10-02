@@ -23,11 +23,15 @@
 
 .overview_widget__hero {
     font-weight: 600;
+    font-size: 24px;
+    background: linear-gradient(90deg, #1a4dbd, #4dabf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .overview_widget__subtitle {
     font-weight: 600;
-    color: #2563EB;
+    color: #000000;
     line-height: 1;
 }
 
@@ -60,7 +64,7 @@
     }
 
     .overview_widget__hero {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .overview_widget__subtitle {
@@ -103,6 +107,7 @@
 
     .overview_widget__subtitle {
         font-size: 40px;
+        padding: 0 16px 0 0;
     }
 
     .overview_widget__features {

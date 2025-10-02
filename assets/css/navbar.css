@@ -11,6 +11,9 @@
 
 .navbar_widget__brand {
     font-weight: 600;
+    background: linear-gradient(90deg, #1a4dbd, #4dabf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar_widget__main {
@@ -28,6 +31,11 @@
     user-select: none;
 }
 
+.material-symbols-outlined:hover {
+    background: linear-gradient(270deg, #1a4dbd, #4dabf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .navbar_widget__main-link:hover {
     text-decoration: underline;

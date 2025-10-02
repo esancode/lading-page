@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     font-family: sans-serif;
     min-height: 100vh;
-    background-color: #F9FAFB;
+    background-color: #ffffff;
 }
 
 .orion_page {
@@ -26,5 +26,8 @@ body {
     XXXbackground-color: rgba(0, 0, 255, 0.486);
     height: auto;
     max-width: 1152px;
+    margin: 4px 0;
     padding: 16px;
+    background-color: #F9FAFB;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.103);
 }

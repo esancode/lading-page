@@ -77,6 +77,10 @@
 
 @media (min-width: 360px) {
 
+    .review_widget__card {
+        padding: 16px 4px;
+    }
+
     .review_widget__title {
         font-size: 24px;
     }
@@ -90,7 +94,7 @@
     }
 
     .review_widget__card_text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #star {

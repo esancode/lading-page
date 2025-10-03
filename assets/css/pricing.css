@@ -93,25 +93,25 @@
     }
 
     .pricing_widget__card_legend {
-        font-size: 16px;
+        font-size: 12px;
         padding: 4px 12px;
         border-radius: 16px;
     }
     
     .pricing_widget__card_header {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .pricing_widget__card_price {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .pricing_widget__card_price-amount {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .pricing_widget__card_list-feature {
-        font-size: 16px;
+        font-size: 12px;
     }
 
 }

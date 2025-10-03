@@ -24,6 +24,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    padding: 16px 4px;
     background-color: #F7F7F7;
 }
 
@@ -89,7 +90,7 @@
     }
 
     .review_widget__card_text {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #star {

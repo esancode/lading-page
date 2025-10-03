@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orion</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/overview.css">
     <link rel="stylesheet" href="assets/css/features.css">
     <link rel="stylesheet" href="assets/css/spects.css">
+    <link rel="stylesheet" href="assets/css/review.css">
 </head>
 <body>
 
@@ -22,7 +24,7 @@
             <a class="navbar_widget__main-link" href="#">Recursos</a>
             <a class="navbar_widget__main-link" href="#">Comprar</a>
         </div>
-        <span class="material-symbols-outlined">menu</span>
+        <span class="material-symbols-outlined" id="main">menu</span>
     </div>
 
 
@@ -30,7 +32,9 @@
     <div class="orion_page">
 
         <div class="overview_widget">
-            <img class="overview_widget__img" src="imagens/Orion_img.png" alt="">
+            <img class="overview_widget__img" 
+                 src="imagens/Orion_img.png" 
+                 alt="">
             <div class="overview_widget__container">
                 <div class="overview_widget__hero">Orion X</div>
                 <div class="overview_widget__subtitle">O futuro no seu pulso</div>
@@ -92,7 +96,68 @@
 
 
 
+        <div class="review_widget">
+            <div class="review_widget__title">O que dizem nossos clientes</div>
+            <div class="review_widget__container">
 
+                <div class="review_widget__card">
+                    <div class="review_widget__card_header">
+                        <img class="review_widget__card_img" 
+                             src="imagens/mulher.jpeg" 
+                             alt="">
+                        <div class="review_widget__card_name">Marina Silva
+                            <div class="review_widget__card_profission">Executiva</div>
+                        </div>
+                    </div>
+                    <div class="review_widget__card_text">"O Orion X revolucionou minha rotina. A bateria realmente dura uma semana!"</div>
+                    <div class="review_widget__card_ratting">
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                    </div>
+                </div>
+
+                <div class="review_widget__card">
+                    <div class="review_widget__card_header"">
+                        <img class="review_widget__card_img" 
+                             src="imagens/homem.jpeg" 
+                             alt="">
+                        <div class="review_widget__card_name">Carlos Mendes
+                            <div class="review_widget__card_profission">Atleta</div>
+                        </div>
+                    </div>
+                    <div class="review_widget__card_text">"Design incrível e funcionalidades que realmente fazem a diferença no treino."</div>
+                    <div class="review_widget__card_ratting">
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                    </div>
+                </div>
+
+                <div class="review_widget__card">
+                    <div class="review_widget__card_header"">
+                        <img class="review_widget__card_img" 
+                             src="imagens/josé.jpeg" 
+                             alt="">
+                        <div class="review_widget__card_name">Márcio Co                            <div class="review_widget__card_profission">Designer</div>
+                        </div>
+                    </div>
+                    <div class="review_widget__card_text">"A qualidade de construção é excepcional. Vale cada centavo investido."</div>
+                    <div class="review_widget__card_ratting">
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                        <span class="material-symbols-outlined" id="star">star</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 
 

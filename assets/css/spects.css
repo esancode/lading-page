@@ -10,9 +10,9 @@
     height: auto;
     width: 100%;
     padding: 16px 14px;
-    border: 1px solid rgba(0, 0, 0, 0.041);
+    border: 1px solid rgba(0, 0, 0, 0.014);
     border-radius: 8px;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.068);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.123);
 
 }
 

@@ -24,7 +24,7 @@
 .spects_widget__wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 4px 0;
+    margin: 8px 0;
 }
 
 .spects_widget__wrapper_label {
@@ -46,11 +46,11 @@
     }
 
     .spects_widget__wrapper_label {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .spects_widget__wrapper_value {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 }

@@ -24,6 +24,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    background-color: #F7F7F7;
 }
 
 .review_widget__card_header {
@@ -71,4 +72,41 @@
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+@media (min-width: 360px) {
+
+    .review_widget__title {
+        font-size: 24px;
+    }
+
+    .review_widget__card_img {
+        width: 48px;
+    }
+
+    .review_widget__card_name {
+        font-size: 16px;
+    }
+
+    .review_widget__card_text {
+        font-size: 16px;
+    }
+
+    #star {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 832px) {
+
+    .review_widget__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .review_widget__card {
+        margin: 24px;
+    }
+
 }

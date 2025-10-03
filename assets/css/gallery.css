@@ -34,3 +34,30 @@
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.151);
 }
 
+@media (min-width: 360px) {
+
+    .gallery_widget__title {
+        font-size: 24px;
+    }
+
+    .gallery_widget__subtitle {
+        font-size: 16px;
+    }
+
+    .gallery_widget__img {
+        width: 120px;
+        height: auto;
+        margin: 16px;
+    }
+
+}
+
+@media (min-width: 832px) {
+
+    .gallery_widget__img {
+        width: 136px;
+        margin: 16px 48px;
+    }
+
+}
+

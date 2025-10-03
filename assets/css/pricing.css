@@ -36,7 +36,7 @@
     position: relative;
     height: auto;
     width: 100%;
-    margin: 18px 0;
+    margin: 24px 0;
     padding: 16px 12px 24px;
     border: 1px solid #2564eb4f;
     border-radius: 8px;
@@ -49,7 +49,7 @@
     position: absolute;
     font-size: 10px;
     color: white;
-    padding: 0 8px;
+    padding: 2px 8px;
     border-radius: 8px;
     top: -0.7em;
     left: 50%;
@@ -84,4 +84,43 @@
 .pricing_widget__card_list-feature {
     font-size: 10px;
     margin: 4px 0;
+}
+
+@media (min-width:360px) {
+
+    .pricing_widget__title {
+        font-size: 24px;
+    }
+
+    .pricing_widget__card_legend {
+        font-size: 16px;
+        padding: 4px 12px;
+        border-radius: 16px;
+    }
+    
+    .pricing_widget__card_header {
+        font-size: 20px;
+    }
+
+    .pricing_widget__card_price {
+        font-size: 20px;
+    }
+
+    .pricing_widget__card_price-amount {
+        font-size: 28px;
+    }
+
+    .pricing_widget__card_list-feature {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 832px) {
+
+    .pricing_widget__container {
+        display: flex;
+        flex-direction: row;
+    }
+
 }

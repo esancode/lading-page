@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 16px 0 0;
 }
 
 .overview_widget__hero {

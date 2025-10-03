@@ -1,0 +1,87 @@
+.pricing_widget {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.pricing_widget__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin: 64px 0 32px;
+}
+
+.pricing_widget__container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.pricing_widget__card01 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 16px 12px 24px;
+    background-color: #f7f7f7;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.pricing_widget__card02 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 18px 0;
+    padding: 16px 12px 24px;
+    border: 1px solid #2564eb4f;
+    border-radius: 8px;
+    background-color: #EFF6FF;
+
+}
+
+.pricing_widget__card_legend {
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    padding: 0 8px;
+    border-radius: 8px;
+    top: -0.7em;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #2563EB;
+}
+
+.pricing_widget__card01:hover {
+    border: 1px solid #2564eb3b;
+    transition: 0.4s;
+}
+
+.pricing_widget__card_header {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pricing_widget__card_price {
+    font-size: 12px;
+    margin: 2px 0 4px;
+}
+
+.pricing_widget__card_price-amount {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pricing_widget__card_list {
+    list-style: none;
+}
+
+.pricing_widget__card_list-feature {
+    font-size: 10px;
+    margin: 4px 0;
+}

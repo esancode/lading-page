@@ -63,17 +63,17 @@
 }
 
 .pricing_widget__card_header {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
 }
 
 .pricing_widget__card_price {
-    font-size: 12px;
+    font-size: 10px;
     margin: 2px 0 4px;
 }
 
 .pricing_widget__card_price-amount {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .pricing_widget__card_list-feature {
-    font-size: 10px;
+    font-size: 8px;
     margin: 4px 0;
 }
 
@@ -99,19 +99,19 @@
     }
     
     .pricing_widget__card_header {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .pricing_widget__card_price {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .pricing_widget__card_price-amount {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .pricing_widget__card_list-feature {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }

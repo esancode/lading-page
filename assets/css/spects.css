@@ -41,6 +41,10 @@
 
 @media (min-width: 360px) {
 
+    .spects_widget {
+        margin-bottom: 40px;
+    }
+
     .spects_widget__title {
         font-size: 24px;
     }

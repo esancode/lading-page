@@ -99,6 +99,10 @@
 
 @media (min-width: 832px) {
 
+    .review_widget {
+        margin-bottom: 40px;
+    }
+
     .review_widget__container {
         display: flex;
         flex-direction: row;

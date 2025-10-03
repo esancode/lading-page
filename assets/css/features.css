@@ -79,6 +79,11 @@
 }
 
 @media (min-width: 832px) {
+
+    .features_widget {
+        margin-bottom: 40px;
+    }
+
     .features_widget__container {
         display: flex;
         justify-content: center;

@@ -96,6 +96,7 @@
     .overview_widget {
         justify-content: space-between;
         flex-direction: row-reverse;
+        margin-bottom: 40px;
     }
 
     .overview_widget__container {

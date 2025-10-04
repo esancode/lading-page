@@ -64,20 +64,20 @@
 @media (min-width: 360px) {
 
     .features_widget__title {
-        font-size: 24px;
+        font-size: clamp(22px, 2vw, 24px);
     }
 
     .features_widget__img {
-        width: 72px;
-        height: 72px;
+        width: 64px;
+        height: 64px;
     }
 
     .features_widget__feature {
-        font-size: 18px;
+        font-size: clamp(16px, 2vw, 18px);
     }
 
     .features_widget__description {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 

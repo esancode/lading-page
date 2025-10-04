@@ -4,6 +4,7 @@
     align-items: center;
     overflow: hidden;
     width: 100%;
+    height: auto;
     margin: 32px 0;
 }
 
@@ -24,7 +25,6 @@
     height: auto;
     width: 100%;
     margin: 24px 0 0;
-    padding: 0 12px;
 }
 
 .features_widget__iten {
@@ -65,11 +65,11 @@
 
     .features_widget__title {
         font-size: 24px;
-        margin: 48px 0 0;
     }
 
     .features_widget__img {
         width: 72px;
+        height: 72px;
     }
 
     .features_widget__feature {

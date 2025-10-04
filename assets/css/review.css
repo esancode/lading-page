@@ -92,6 +92,7 @@
 
     .review_widget__card_img {
         width: 48px;
+        height: 48px;
     }
 
     .review_widget__card_name {

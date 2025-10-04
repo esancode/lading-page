@@ -4,17 +4,18 @@
     align-items: center;
     height: auto;
     width: 100%;
+    margin: 20px 0;
 }
 
 .gallery_widget__title {
     font-weight: 600;
-    margin: 40px 0 0;
+    font-size: clamp(18px, 2vw, 20px);
 }
 
 .gallery_widget__subtitle {
     text-align: center;
-    font-size: 12px;
-    margin: 8px 0 24px ;
+    font-size: clamp(12px, 2vw, 14px);
+    margin: 8px 0 ;
 }
 
 .gallery_widget__container {
@@ -22,13 +23,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 24px 0 0;
     width: 100%;
     overflow: hidden;
 }
 
 .gallery_widget__img {
     width: 96px;
-    height: 88px;
+    height: 96px;
     margin: 8px;
     border-radius: 8px;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.151);

@@ -3,13 +3,14 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    margin: 24px 0;
 }
 
 .pricing_widget__title {
     display: flex;
     justify-content: center;
     font-weight: 600;
-    margin: 64px 0 32px;
+    font-size: clamp(18px, 2vw, 20px);
 }
 
 .pricing_widget__container {
@@ -17,6 +18,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    margin: 24px 0 0;
 }
 
 .pricing_widget__card01 {
@@ -24,10 +26,11 @@
     flex-direction: column;
     height: auto;
     width: 100%;
-    padding: 16px 12px 24px;
-    background-color: #f7f7f7;
+    margin: 0 0 16px;
+    padding: 12px;
     border: 1px solid transparent;
     border-radius: 8px;
+    background-color: #f3f3f3;
 }
 
 .pricing_widget__card02 {
@@ -36,8 +39,7 @@
     position: relative;
     height: auto;
     width: 100%;
-    margin: 24px 0;
-    padding: 16px 12px 24px;
+    padding: 12px;
     border: 1px solid #2564eb4f;
     border-radius: 8px;
     background-color: #EFF6FF;
@@ -47,7 +49,7 @@
 .pricing_widget__card_legend {
     display: inline;
     position: absolute;
-    font-size: 10px;
+    font-size: clamp(10px, 2vw, 12px);
     color: white;
     padding: 2px 8px;
     border-radius: 8px;
@@ -63,17 +65,17 @@
 }
 
 .pricing_widget__card_header {
-    font-size: 10px;
+    font-size: clamp(12px, 2vw, 14px);
     font-weight: 600;
 }
 
 .pricing_widget__card_price {
-    font-size: 10px;
+    font-size: clamp(12px, 2vw, 14px);
     margin: 2px 0 4px;
 }
 
 .pricing_widget__card_price-amount {
-    font-size: 18px;
+    font-size: clamp(16px, 2vw, 18px);
     font-weight: 600;
 }
 
@@ -82,7 +84,7 @@
 }
 
 .pricing_widget__card_list-feature {
-    font-size: 8px;
+    font-size: clamp(10px, 2vw, 12px);
     margin: 4px 0;
 }
 
@@ -122,5 +124,15 @@
         display: flex;
         flex-direction: row;
     }
+
+    .pricing_widget__card01 {
+        margin: 12px;
+    }
+
+    .pricing_widget__card02 {
+        margin: 12px;
+    }
+
+    
 
 }

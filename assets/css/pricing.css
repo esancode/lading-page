@@ -53,9 +53,9 @@
     color: white;
     padding: 2px 8px;
     border-radius: 8px;
-    top: -0.7em;
+    top: 0;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     background-color: #2563EB;
 }
 
@@ -95,7 +95,7 @@
     }
 
     .pricing_widget__card_legend {
-        font-size: 12px;
+        font-size: 10px;
         padding: 4px 12px;
         border-radius: 16px;
     }

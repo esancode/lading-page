@@ -4,6 +4,7 @@
     height: auto;
     width: 100%;
     margin: 24px 0;
+    padding: 0 16px;
 }
 
 .pricing_widget__title {
@@ -119,6 +120,10 @@
 }
 
 @media (min-width: 832px) {
+
+    .pricing_widget {
+        padding: 0 32px;
+    }
 
     .pricing_widget__container {
         display: flex;

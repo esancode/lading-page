@@ -6,6 +6,7 @@
     height: auto;
     width: 100%;
     margin: 0 0 32px;
+    padding: 0 16px;
 }
 
 .overview_widget__img {
@@ -13,7 +14,7 @@
     margin: 12px;
     border: 1px solid rgba(0, 0, 0, 0.055);
     border-radius: 8px;
-    box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.13);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.068);
 }
 
 .overview_widget__container {
@@ -46,9 +47,8 @@
 
 .overview_widget__button {
     cursor: pointer;
-    height: 44px;
     margin: 8px;
-    padding: 0 16px;
+    padding: 12px 16px;
     margin: 12px 0 0;
     border: none;
     border-radius: 24px;
@@ -59,8 +59,6 @@
 .overview_widget__button:hover {
     background-color: #1c49a8;
 }
-
-/* TABLET */
 
 @media (min-width: 360px) {
 
@@ -87,18 +85,13 @@
     }
 }
 
-/* DESKTOP */
-
 @media (min-width: 832px) {
-    
-    .orion_page {
-        padding: 36px 88px;
-    }
 
     .overview_widget {
         justify-content: space-between;
         flex-direction: row-reverse;
         margin-bottom: 40px;
+        padding: 0 32px;
     }
 
     .overview_widget__container {

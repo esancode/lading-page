@@ -43,8 +43,6 @@
     text-decoration: underline;
 }
 
-/* TABLET */
-
 @media (min-width: 360px) {
     
     .navbar_widget__brand {

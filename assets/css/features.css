@@ -104,6 +104,6 @@
     }
 
     .features_widget__title {
-        font-size: 32px;
+        font-size: clamp(26px, 2vw, 28px)
     }
 }

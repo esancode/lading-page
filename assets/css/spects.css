@@ -26,6 +26,12 @@
     font-size: clamp(18px, 2vw, 20px);
 }
 
+.spects_widget__title_span {
+    background: linear-gradient(90deg, #1a4dbd, #4dabf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .spects_widget__wrapper {
     display: flex;
     justify-content: space-between;
@@ -60,6 +66,22 @@
 
     .spects_widget__wrapper_value {
         font-size: 14px;
+    }
+
+}
+
+@media (min-width: 832px) {
+
+    .spects_widget__title {
+        font-size: clamp(26px, 2vw, 28px)
+    }
+
+    .spects_widget__wrapper_label {
+        font-size: 16px;
+    }
+
+    .spects_widget__wrapper_value {
+        font-size: 16px;
     }
 
 }

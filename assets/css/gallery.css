@@ -13,6 +13,12 @@
     font-size: clamp(18px, 2vw, 20px);
 }
 
+.gallery_widget__title_span {
+    background: linear-gradient(90deg, #1a4dbd, #4dabf7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .gallery_widget__subtitle {
     text-align: center;
     font-size: clamp(12px, 2vw, 14px);
@@ -60,6 +66,14 @@
     .gallery_widget {
         margin-bottom: 40px;
         padding: 0 32px;
+    }
+
+    .gallery_widget__title {
+        font-size: clamp(26px, 2vw, 28px)
+    }
+
+    .gallery_widget__subtile {
+        font-size: 16px;
     }
 
     .gallery_widget__img {

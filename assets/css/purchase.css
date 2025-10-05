@@ -55,3 +55,27 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+
+@media (min-width: 360px) {
+
+    .purchase_widget__title {
+        font-size: clamp(20px, 2vw, 22px);
+    }
+
+    .purchase_widget__subtitle {
+        font-size: 12px;
+    }
+
+    .purchase_widget__button {
+        font-size: 14px;
+    }
+
+    .purchase_widget__container {
+        width: 180px;
+    }
+
+    .purchase_widget__shipping {
+        font-size: clamp(12px, 2vw, 14px);
+    }
+
+}

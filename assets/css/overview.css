@@ -91,7 +91,7 @@
         justify-content: space-between;
         flex-direction: row-reverse;
         margin-bottom: 40px;
-        padding: 0 32px;
+        padding: 16px 32px 0;
     }
 
     .overview_widget__container {
@@ -100,22 +100,19 @@
     }
 
     .overview_widget__hero {
-        font-size: 40px;
+        font-size: clamp(32px, 2vw, 36px);
     }
 
     .overview_widget__subtitle {
-        font-size: 40px;
+        font-size: clamp(32px, 2vw, 36px);
         padding: 0 16px 0 0;
     }
 
     .overview_widget__features {
         text-align: left;
+        font-size: 18px;
         margin: 8px 0;
         width: 80%;
-    }
-
-    .overview_widget__button {
-        margin: 16px 0;
     }
 
     .overview_widget__img {

@@ -21,7 +21,7 @@
     display: none;
 }
 
-.navbar_widget__main-link {
+.navbar_widget__main_link {
     text-decoration: none;
     padding: 0px 32px;
     color: black;
@@ -39,7 +39,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.navbar_widget__main-link:hover {
+.navbar_widget__main_link:hover {
     text-decoration: underline;
 }
 

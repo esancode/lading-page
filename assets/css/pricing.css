@@ -1,4 +1,4 @@
-.pricing_widget {
+.pricing-widget {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,18 +8,18 @@
     padding: 0 16px;
 }
 
-.pricing_widget__title {
+.pricing-widget__title {
     font-weight: 600;
     font-size: clamp(18px, 2vw, 20px);
 }
 
-.pricing_widget__title_span {
+.pricing-widget__title_span {
     background: linear-gradient(90deg, #1a4dbd, #4dabf7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.pricing_widget__container {
+.pricing-widget__container {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -27,7 +27,7 @@
     margin: 24px 0 0;
 }
 
-.pricing_widget__card01 {
+.pricing-widget__card01 {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -39,7 +39,11 @@
     background-color: #f3f3f3;
 }
 
-.pricing_widget__card02 {
+.p01 {
+    background-color: orange !important;
+}
+
+.pricing-widget__card02 {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -52,7 +56,7 @@
 
 }
 
-.pricing_widget__card_legend {
+.pricing-widget__card_legend {
     display: inline;
     position: absolute;
     font-size: clamp(10px, 2vw, 12px);
@@ -65,60 +69,60 @@
     background-color: #2563EB;
 }
 
-.pricing_widget__card01:hover {
+.pricing-widget__card01:hover {
     border: 1px solid #2564eb3b;
     transition: 0.4s;
 }
 
-.pricing_widget__card_header {
+.pricing-widget__card_header {
     font-size: clamp(12px, 2vw, 14px);
     font-weight: 600;
 }
 
-.pricing_widget__card_price {
+.pricing-widget__card_price {
     font-size: clamp(12px, 2vw, 14px);
     margin: 2px 0 4px;
 }
 
-.pricing_widget__card_price-amount {
+.pricing-widget__card_price-amount {
     font-size: clamp(16px, 2vw, 18px);
     font-weight: 600;
 }
 
-.pricing_widget__card_list {
+.pricing-widget__card_list {
     list-style: none;
 }
 
-.pricing_widget__card_list-feature {
+.pricing-widget__card_list-feature {
     font-size: clamp(10px, 2vw, 12px);
     margin: 4px 0;
 }
 
 @media (min-width:360px) {
 
-    .pricing_widget__title {
+    .pricing-widget__title {
         font-size: clamp(22px, 2vw, 24px);
     }
 
-    .pricing_widget__card_legend {
+    .pricing-widget__card_legend {
         font-size: 10px;
         padding: 4px 12px;
         border-radius: 16px;
     }
     
-    .pricing_widget__card_header {
+    .pricing-widget__card_header {
         font-size: 14px;
     }
 
-    .pricing_widget__card_price {
+    .pricing-widget__card_price {
         font-size: 14px;
     }
 
-    .pricing_widget__card_price-amount {
+    .pricing-widget__card_price-amount {
         font-size: clamp(18px, 2vw, 20px);
     }
 
-    .pricing_widget__card_list-feature {
+    .pricing-widget__card_list-feature {
         font-size: 12px;
     }
 
@@ -126,40 +130,40 @@
 
 @media (min-width: 832px) {
 
-    .pricing_widget {
+    .pricing-widget {
         padding: 0 32px;
     }
 
-    .pricing_widget__title {
+    .pricing-widget__title {
         font-size: clamp(26px, 2vw, 28px)
     }
 
-    .pricing_widget__container {
+    .pricing-widget__container {
         display: flex;
         flex-direction: row;
     }
 
-    .pricing_widget__card01 {
+    .pricing-widget__card01 {
         margin: 12px;
     }
 
-    .pricing_widget__card02 {
+    .pricing-widget__card02 {
         margin: 12px;
     }
 
-    .pricing_widget__card_header {
+    .pricing-widget__card_header {
         font-size: 16px;
     }
 
-    .pricing_widget__card_price {
+    .pricing-widget__card_price {
         font-size: 16px;
     }
 
-    .pricing_widget__card_price-amount {
+    .pricing-widget__card_price-amount {
         font-size: clamp(18px, 2vw, 20px);
     }
 
-    .pricing_widget__card_list-feature {
+    .pricing-widget__card_list-feature {
         font-size: 14px;
     }
 

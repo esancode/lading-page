@@ -1,4 +1,4 @@
-.overview_widget {
+.overview-widget {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,14 @@
     padding: 0 16px;
 }
 
-.overview_widget__img {
+.overview-widget__wrapper {
+    display: flex;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.overview-widget__wrapper img {
     width: 100%;
     margin: 12px;
     border: 1px solid rgba(0, 0, 0, 0.055);
@@ -17,14 +24,14 @@
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.068);
 }
 
-.overview_widget__container {
+.overview-widget__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 12px 0 0;
 }
 
-.overview_widget__hero {
+.overview-widget__hero {
     font-size: clamp(20px, 2vw, 24px);
     font-weight: 600;
     background: linear-gradient(90deg, #1a4dbd, #4dabf7);
@@ -32,20 +39,20 @@
     -webkit-text-fill-color: transparent;
 }
 
-.overview_widget__subtitle {
+.overview-widget__subtitle {
     font-size: clamp(18px, 2vw, 20px);
     font-weight: 600;
     color: #000000;
     line-height: 1;
 }
 
-.overview_widget__features {
+.overview-widget__features {
     text-align: center;
     font-size: clamp(14px, 2vw, 16px);
     margin: 8px;
 }
 
-.overview_widget__button {
+.overview-widget__button {
     cursor: pointer;
     margin: 8px;
     padding: 12px 16px;
@@ -56,29 +63,29 @@
     background-color: #1356e6;
 }
 
-.overview_widget__button:hover {
+.overview-widget__button:hover {
     background-color: #1c49a8;
 }
 
 @media (min-width: 360px) {
 
-    .overview_widget__img {
+    .overview-widget__wrapper img {
         width: 328px;
     }
 
-    .overview_widget__hero {
+    .overview-widget__hero {
         font-size: clamp(26px, 2vw, 30px);
     }
 
-    .overview_widget__subtitle {
+    .overview-widget__subtitle {
         font-size: clamp(22px, 2vw, 24px);
     }
 
-    .overview_widget__features {
+    .overview-widget__features {
         font-size: clamp(16px, 2vw, 18px);
     }
     
-    .overview_widget__button {
+    .overview-widget__button {
         padding: 14px 20px;
         border-radius: 32px;
         font-size: 16px;
@@ -87,35 +94,35 @@
 
 @media (min-width: 832px) {
 
-    .overview_widget {
+    .overview-widget {
         justify-content: space-between;
         flex-direction: row-reverse;
         margin-bottom: 40px;
         padding: 16px 32px 0;
     }
 
-    .overview_widget__container {
+    .overview-widget__container {
         align-items: flex-start;
 
     }
 
-    .overview_widget__hero {
+    .overview-widget__hero {
         font-size: clamp(32px, 2vw, 36px);
     }
 
-    .overview_widget__subtitle {
+    .overview-widget__subtitle {
         font-size: clamp(32px, 2vw, 36px);
         padding: 0 16px 0 0;
     }
 
-    .overview_widget__features {
+    .overview-widget__features {
         text-align: left;
         font-size: 18px;
         margin: 8px 0;
         width: 80%;
     }
 
-    .overview_widget__img {
+    .overview-widget__wrapper img {
         width: 376px;
     }
 

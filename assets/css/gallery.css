@@ -1,4 +1,4 @@
-.gallery_widget {
+.gallery-widget {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,24 +8,24 @@
     padding: 0 16px;
 }
 
-.gallery_widget__title {
+.gallery-widget__title {
     font-weight: 600;
     font-size: clamp(18px, 2vw, 20px);
 }
 
-.gallery_widget__title_span {
+.gallery-widget__title_span {
     background: linear-gradient(90deg, #1a4dbd, #4dabf7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.gallery_widget__subtitle {
+.gallery-widget__subtitle {
     text-align: center;
     font-size: clamp(12px, 2vw, 14px);
     margin: 8px 0 ;
 }
 
-.gallery_widget__container {
+.gallery-widget__container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@
     overflow: hidden;
 }
 
-.gallery_widget__img {
+.gallery-widget__wrapper img {
     width: 96px;
     height: 96px;
     margin: 8px;
@@ -45,15 +45,15 @@
 
 @media (min-width: 360px) {
 
-    .gallery_widget__title {
+    .gallery-widget__title {
         font-size: clamp(22px, 2vw, 24px);
     }
 
-    .gallery_widget__subtitle {
+    .gallery-widget__subtitle {
         font-size: 14px;
     }
 
-    .gallery_widget__img {
+    .gallery-widget__wrapper img {
         width: 120px;
         height: 120px;
         margin: 16px;
@@ -63,20 +63,20 @@
 
 @media (min-width: 832px) {
 
-    .gallery_widget {
+    .gallery-widget {
         margin-bottom: 40px;
         padding: 0 32px;
     }
 
-    .gallery_widget__title {
+    .gallery-widget__title {
         font-size: clamp(26px, 2vw, 28px)
     }
 
-    .gallery_widget__subtile {
+    .gallery-widget__subtile {
         font-size: 16px;
     }
 
-    .gallery_widget__img {
+    .gallery-widget__wrapper img {
         width: 136px;
         margin: 16px 48px;
     }
